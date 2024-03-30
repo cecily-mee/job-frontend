@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Job Portal</h1>
+            <button id="loginBtn">Login</button>
+        </header>
+        <div id="loginForm" class="hidden">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="submitBtn">Submit</button>
+        </div>
+        <div id="jobListings" class="hidden">
+            <!-- Job listings will be dynamically populated here -->
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
